@@ -49,7 +49,6 @@
  
     grid-row-end: 4;
     grid-column-end: 6;
-
  }
 
  /*Styling for our common elements */
@@ -75,23 +74,6 @@
     margin: 1em;
  }
 
- /* Styling for our flex elents */
- .flexbody{
-    display: flex;
- }
-
- .card{
-    background-color: var(--dark);
-    color: var(--light);
-    margin: 5px;
- }
-
- .card-header{
-    font-size: 1.25em;
-    font-weight: bold;
-    margin: 0.5em;
- }
-
  form {
     display: flex;
     flex-flow: column wrap;
@@ -115,7 +97,25 @@ button{
     font-size: 1em;
 }
 
-#searchbutton {
+ /* Styling for our flex elents */
+ .flexbody{
+    display: flex;
+ }
+
+ .card{
+    background-color: var(--dark);
+    color: var(--light);
+    margin: 5px;
+ }
+
+ .card-header{
+    font-size: 1.25em;
+    font-weight: bold;
+    margin: 0.5em;
+ }
+
+ /* Styling for our identified elements */
+ #searchbutton {
     background-color: rgb(97, 160, 227);
     color: var(-light);
 }
