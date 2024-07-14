@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- Define head -->
+    <head>
+        <meta charset="UTF-8" />
+        <meta name=""viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <title>Weather Dashboard App</title>
+    </head>
+    <!-- Define body -->
+    <body>
+        <!-- Define a header to comprise the app heading and some NAV links -->
+        <header>
+            <H1>Weather Dashboard</H1>
+        </header>
+        <!-- Setup a main with three sections for search, city selection and five day forecast -->
+        <main class="grid">
+            <div id="city-search">
+                <h2>Search for a City:</h2>
+                <form>
+                    <input type="text" id="city" />
+                    <button id="searchbutton">Search</button>
+                </form>
+                <hr>
+                <form id="search-history">
+                </form>
+            </div>
+            <div id="city-selection">
+                <h2>Please enter a city name to be searched for using the search option to the left <img></h2>
+                <ul>
+                    <li>Temp:</li>
+                    <li>Wind:</li>
+                    <li>Humidity:</li>
+                </ul>
+            </div>
+            <section id="five-day-forecast">
+                <h3>5-Day Forecast</h3>
+                <div class="flexbody">
+                    <div class="card" id="day1">
+                        <div class="card-header">Day1 date here</div>
+                        <div class="card-body">
+                            <img>
+                            <ul>
+                                <li>Temp:</li>
+                                <li>Wind:</li>
+                                <li>Humidity:</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card" id="day2">
+                        <div class="card-header">Day2 date here</div>
+                        <div class="card-body">
+                            <img>
+                            <ul>
+                                <li>Temp:</li>
+                                <li>Wind:</li>
+                                <li>Humidity:</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card" id="day3">
+                        <div class="card-header">Day3 date here</div>
+                        <div class="card-body">
+                            <img>
+                            <ul>
+                                <li>Temp:</li>
+                                <li>Wind:</li>
+                                <li>Humidity:</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card" id="day4">
+                        <div class="card-header">Day4 date here</div>
+                        <div class="card-body">
+                            <img>
+                            <ul>
+                                <li>Temp:</li>
+                                <li>Wind:</li>
+                                <li>Humidity:</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card" id="day5">
+                        <div class="card-header">Day5 date here</div>
+                        <div class="card-body">
+                            <img>
+                            <ul>
+                                <li>Temp:</li>
+                                <li>Wind:</li>
+                                <li>Humidity:</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+        </footer>
+        <script src="./assets/js/script.js"></script>
+    </body>
+</html>
+    
